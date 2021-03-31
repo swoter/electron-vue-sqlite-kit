@@ -1,0 +1,164 @@
+$all-transition: all 0.5s ease-in-out !default;
+$color-white: #ffffff !default;
+$color-black: #000000 !default;
+
+$color-primary: #272C35;
+$color-primary-light: #6788ff;
+$color-primary-secondary: #edf2f9;
+$color-success: #65c734;
+$color-warning: #ffae00;
+$color-info: #3598fc;
+$color-error: #fe5d5d;
+$color-danger: #f81600;
+$color-text: #6b7685;
+$color-light: mix($color-white, $color-primary, 95%);
+$color-light-main: mix($color-white, $color-primary, 85%);
+$color-light-dark: mix($color-white, $color-primary, 40%);
+
+$hover-color-light: mix($color-white, $color-primary, 97%);
+$shadow-color: rgba(mix($color-black, $color-primary, 40%), 0.1);
+$shadow-color-dark: rgba(mix($color-black, $color-primary, 40%), 0.3);
+$gray-1: mix($color-white, $color-black, 95%) !default;
+$gray-2: mix($color-white, $color-black, 90%) !default;
+$gray-3: mix($color-white, $color-black, 85%) !default;
+$gray-4: mix($color-white, $color-black, 80%) !default;
+$gray-5: mix($color-white, $color-black, 75%) !default;
+$gray-6: mix($color-white, $color-black, 70%) !default;
+$gray-7: mix($color-white, $color-black, 65%) !default;
+$gray-8: mix($color-white, $color-black, 60%) !default;
+$gray-9: mix($color-white, $color-black, 55%) !default;
+$grays: () !default;
+$grays: map-merge(
+  (
+    "1": $gray-1,
+    "2": $gray-2,
+    "3": $gray-3,
+    "4": $gray-4,
+    "5": $gray-5,
+    "6": $gray-6,
+    "7": $gray-7,
+    "8": $gray-8,
+    "9": $gray-9,
+  ),
+  $grays
+);
+
+$colors: () !default;
+
+$colors: map-merge(
+  (
+    "white": $color-white,
+    "light": $color-light,
+    "light-dark": $color-light-dark,
+    "black": $color-black,
+    "primary": $color-primary,
+    "secondary": $gray-4,
+    "success": $color-success,
+    "warning": $color-warning,
+    "error": $color-error,
+    "danger": $color-danger,
+    "gray-1": $gray-1,
+    "gray-2": $gray-2,
+    "gray-3": $gray-3,
+    "gray-4": $gray-4,
+    "gray-5": $gray-4,
+    "gray-6": $gray-6,
+    "gray-7": $gray-7,
+    "gray-8": $gray-8,
+    "gray-9": $gray-9,
+  ),
+  $colors
+);
+
+$body-color: $gray-1 !default;
+$header-color: rgba($color-primary, 0.9) !default;
+$footer-color: #f0f0f8 !default;
+$breadcrumb-color: #fff !default;
+
+$aside-color: #fff !default;
+$main-color: $color-white !default;
+$margin: 20px;
+$padding: 20px;
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex,
+  inline-flex !default;
+
+$font-size-base: 14px;
+$font-sizes: () !default;
+$font-sizes: map-merge(
+  (
+    1: $font-size-base * 2.5,
+    2: $font-size-base * 2,
+    3: $font-size-base * 1.75,
+    4: $font-size-base * 1.5,
+    5: $font-size-base * 1.25,
+    6: $font-size-base,
+  ),
+  $font-sizes
+);
+
+$aligns: left right center;
+$sizes: () !default;
+$sizes: map-merge(
+  (
+    10: 10%,
+    20: 20%,
+    25: 25%,
+    33: 33.3333%,
+    50: 50%,
+    66: 66.6666%,
+    75: 75%,
+    80: 80%,
+    90: 90%,
+    100: 100%,
+    auto: auto,
+  ),
+  $sizes
+);
+
+$borders: () !default;
+$borders: map-merge(
+  (
+    "0": 0,
+    "1": 1,
+    "left": 2,
+    "top": 2,
+    "right": 2,
+    "bottom": 2,
+    "dashed": dashed,
+    "dotted": dotted,
+  ),
+  $borders
+);
+$border-radius-base: 20px;
+$levels: () !default;
+$levels: map-merge(
+  (
+    1: #21a83f,
+    2: #8cb649,
+    3: #f7b550,
+    4: #fc7344,
+    5: #fc4b43,
+  ),
+  $levels
+);
+
+$border-color: $gray-3;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+) !default;
+
+$grid-columns: 24 !default;
+$grid-gutter-width: 20px !default;
+$grid-row-columns: 6 !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+) !default;

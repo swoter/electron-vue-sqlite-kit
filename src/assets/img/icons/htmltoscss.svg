@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.67595,0,0,0.638672,-18.2785,0)">
+        <path d="M71,460L30,0L481,0L440,460L255,512" style="fill:rgb(227,79,38);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(0.67595,0,0,0.638672,-18.2785,0)">
+        <path d="M256,472L405,431L440,37L256,37" style="fill:rgb(239,101,42);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(0.67595,0,0,0.638672,-18.2785,0)">
+        <path d="M256,208L181,208L176,150L256,150L256,94L114,94L129,265L256,265L256,208ZM255,355L192,338L188,293L132,293L139,382L255,414L255,355Z" style="fill:rgb(235,235,235);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(0.67595,0,0,0.638672,-18.2785,0)">
+        <path d="M255,208L255,265L325,265L318,338L255,355L255,414L371,382L387,208L255,208ZM255,94L255,150L392,150L397,94L255,94Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(0.582031,0,0,0.582031,211,211)">
+        <path d="M512,131.952C512,59.126 452.874,0 380.048,0L131.952,0C59.126,0 0,59.126 0,131.952L0,380.048C0,452.874 59.126,512 131.952,512L380.048,512C452.874,512 512,452.874 512,380.048L512,131.952Z" style="fill:rgb(204,102,153);"/>
+    </g>
+    <g transform="matrix(0.582031,0,0,0.582031,211,211)">
+        <path d="M258,88C162,121 100,188 106,228C112,268 172,300 199,321C164,339 120,366 121,401C123,449 175,434 197,420C219,406 241,367 227,326C258,318 285,328 293,334C324,356 308,381 297,385C286,389 293,391 300,389C307,387 322,377 322,360C322,317 276,297 219,312C186,277 141,261 143,223C144,209 149,173 238,128C327,83 390,101 382,142C370,204 262,246 224,210C222,206 215,203 219,214C239,264 401,241 408,135C410,79 329,64 258,88ZM172,408C147,416 148,400 149,394C152,377 166,356 208,335C220,373 193,402 172,408Z" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+</svg>

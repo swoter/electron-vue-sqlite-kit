@@ -1,0 +1,135 @@
+/*
+ * @Descripttion: [heading]
+ */
+.h {
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: inherit;
+}
+
+@for $i from 1 through 6 {
+  h#{$i},
+  .h#{$i} {
+    @extend .h;
+  }
+  h#{$i},
+  .h#{$i} {
+    font-size: map-get($map: $font-sizes, $key: $i);
+  }
+}
+
+.lead {
+  font-size: $font-size-base * 1.25;
+  font-weight: 300;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+small,
+.small {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+mark,
+.mark {
+  padding: 3px 5px;
+  color: $color-white;
+  background: $color-primary;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0 !important;
+  list-style: none;
+}
+
+*,
+*::focus,
+::focus {
+  outline: 0;
+}
+
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+a:focus,
+button:focus {
+  outline: none !important;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+button,
+a {
+  outline: 0 none !important;
+  blr: expression(this.onFocus=this.blur());
+}
+
+a,
+a:focus,
+a:active,
+a:hover {
+  -webkit-transition: $all-transition;
+  -moz-transition: $all-transition;
+  -o-transition: $all-transition;
+  -ms-transition: $all-transition;
+  transition: $all-transition;
+  color: $color-text;
+  text-decoration: none !important;
+}
+
+a[href*="tel"],
+a[href*="mailto"] {
+  white-space: nowrap;
+}
+
+::selection {
+  background: $color-primary;
+  color: $color-white;
+}
+
+::-moz-selection {
+  background: $color-primary;
+  color: $color-white;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+@import "./icons/icons";
+body {
+  font: $font-size-base -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  line-height: 1.8;
+}

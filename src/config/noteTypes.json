@@ -1,0 +1,117 @@
+[
+  {
+    "name": "html5",
+    "language": "html5",
+    "extension": "html"
+  },
+  {
+    "name": "javascript",
+    "language": "javascript",
+    "extension": "js"
+  },
+  {
+    "name": "vue",
+    "language": "vue",
+    "extension": "vue"
+  },
+  {
+    "name": "css",
+    "language": "css",
+    "extension": "css"
+  },
+  {
+    "name": "git",
+    "language": "text",
+    "extension": "git"
+  },
+  {
+    "name": "vscode",
+    "language": "text",
+    "extension": "git"
+  },
+  {
+    "name": "electron",
+    "language": "text",
+    "extension": "js"
+  },
+  {
+    "name": "redis",
+    "language": "text",
+    "extension": "git"
+  },
+  {
+    "name": "ajax",
+    "language": "text",
+    "extension": "js"
+  },
+  {
+    "name": "nodejs",
+    "language": "text",
+    "extension": "js"
+  },
+  {
+    "name": "es6",
+    "language": "text",
+    "extension": "js"
+  },
+  {
+    "name": "react",
+    "language": "js",
+    "extension": "js"
+  },
+  {
+    "name": "json",
+    "language": "json",
+    "extension": "json"
+  },
+  {
+    "name": "powershell",
+    "language": "powershell",
+    "extension": "ps1"
+  },
+  {
+    "name": "apple",
+    "language": "text",
+    "extension": "ps1"
+  },
+  {
+    "name": "linux",
+    "language": "text",
+    "extension": "conf"
+  },
+  {
+    "name": "nginx",
+    "language": "text",
+    "extension": "conf"
+  },
+  {
+    "name": "php",
+    "language": "php",
+    "extension": "php"
+  },
+  {
+    "name": "mysql",
+    "language": "sql",
+    "extension": "sql"
+  },
+  {
+    "name": "java",
+    "language": "java",
+    "extension": "java"
+  },
+  {
+    "name": "xml",
+    "language": "xml",
+    "extension": "xml"
+  },
+  {
+    "name": "adobe",
+    "language": "text",
+    "extension": "ps1"
+  },
+  {
+    "name": "windows",
+    "language": "text",
+    "extension": "ps1"
+  }
+]

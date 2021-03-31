@@ -1,0 +1,208 @@
+@import "./icons.scss";
+
+$all-transition: all 0.4s ease-in-out !default;
+$box-shadow-base: 0 4px 8px rgba(0, 0, 0, 0.4), 0 0 6px rgba(0, 0, 0, 0.1) !default;
+
+$font-size: 16px;
+$color: #999;
+$primary: #9c23ff;
+$toolbar-color: #cdcdcd;
+$toolbar-hover-color: #fff;
+$toolbar-background-color-light: rgba(36, 36, 36, 0.89);
+$toolbar-background-color: #242424;
+$toolbar-button-border-left: 1px solid #333;
+$toolbar-button-border-right: 1px solid #000;
+$toolbar-button-hover-backround-color-light: rgba(36, 36, 36, 1);
+$toolbar-button-hover-backround-color: #171717;
+@mixin transition-set() {
+  transition: $all-transition;
+  -webkit-transition: $all-transition;
+  -moz-transition: $all-transition;
+  -o-transition: $all-transition;
+  -ms-transition: $all-transition;
+}
+
+@mixin border-radius-set($radius: 0) {
+  border-radius: $radius !important;
+  -webkit-border-radius: $radius !important;
+  -moz-border-radius: $radius !important;
+  -ms-border-radius: $radius !important;
+  -o-border-radius: $radius !important;
+}
+
+@mixin shadow() {
+  -webkit-box-shadow: $box-shadow-base;
+  box-shadow: $box-shadow-base;
+}
+@mixin flex() {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+@mixin flex-start() {
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+@mixin flex-between() {
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+@mixin flex-wrap() {
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+@mixin flex-item-center() {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+.flex {
+  @include flex();
+}
+.flex-start {
+  @include flex-start();
+}
+.flex-between {
+  @include flex-between();
+}
+.flex-wrap {
+  @include flex-wrap();
+}
+.flex-item-center {
+  @include flex-item-center();
+}
+
+/*
+ * @Descripttion: [margin]
+ */
+.m-auto {
+  margin: auto !important;
+}
+.m-center {
+  margin: 0 auto !important;
+}
+@for $i from 1 through 6 {
+  $i: $i - 1;
+  .m-#{$i} {
+    margin: #{$i}px !important;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}px !important;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}px !important;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px !important;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+
+  $px: $i * 10;
+  .m-#{$px} {
+    margin: #{$px}px !important;
+  }
+  .ml-#{$px} {
+    margin-left: #{$px}px !important;
+  }
+  .mr-#{$px} {
+    margin-right: #{$px}px !important;
+  }
+  .mt-#{$px} {
+    margin-top: #{$px}px !important;
+  }
+  .mb-#{$px} {
+    margin-bottom: #{$px}px !important;
+  }
+}
+.follower-editor {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  min-height: 200px;
+  padding: 20px;
+  font-size: $font-size;
+  a {
+    color: $toolbar-color !important;
+    line-height: unset !important;
+  }
+  a:hover,
+  a.active {
+    color: $primary !important;
+  }
+  .follower-editor-toolbar {
+    position: absolute;
+    z-index: 2147483649;
+    min-width: 320px;
+    opacity: 0;
+    @include flex();
+    @include flex-start();
+    @include transition-set();
+    button {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: $toolbar-color;
+      background: $toolbar-background-color;
+      background: linear-gradient(
+        to bottom,
+        $toolbar-background-color-light,
+        $toolbar-background-color
+      );
+      font-size: $font-size;
+      border: 0;
+      border-left: $toolbar-button-border-left;
+      border-right: $toolbar-button-border-right;
+      cursor: pointer;
+      @include shadow();
+      @include transition-set();
+      &:hover {
+        background: linear-gradient(
+          to bottom,
+          $toolbar-button-hover-backround-color-light,
+          $toolbar-button-hover-backround-color
+        );
+        color: $primary;
+      }
+      &:first-child {
+        @include border-radius-set(20px 0 0 20px);
+      }
+      &:last-child {
+        @include border-radius-set(0 20px 20px 0);
+      }
+    }
+  }
+  &-dashboard {
+    position: absolute;
+    bottom: 40px;
+    background: linear-gradient(
+      to bottom,
+      $toolbar-background-color-light,
+      $toolbar-background-color
+    );
+    @include border-radius-set(20px);
+    @include shadow();
+  }
+  &-color-picker {
+    width: 320px;
+    padding: 10px;
+    @include flex();
+    @include flex-start();
+    @include flex-wrap();
+    @include flex-item-center();
+    &-item {
+      margin: 5px;
+      border: 0;
+      padding: 0;
+      width: 16px;
+      height: 16px;
+      @include border-radius-set(50%);
+    }
+  }
+  &-content {
+    margin-top: 50px;
+    min-height: 150px;
+  }
+}

@@ -1,0 +1,336 @@
+.follower-icon-font-size {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe900;"
+  );
+}
+.follower-icon-font-color {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe901;"
+  );
+}
+.follower-icon-striket {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe902;"
+  );
+}
+.follower-icon-unlink {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe903;"
+  );
+}
+.follower-icon-link {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe904;"
+  );
+}
+.follower-icon-undo {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe905;"
+  );
+}
+.follower-icon-redo {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe906;"
+  );
+}
+.follower-icon-grid {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe907;"
+  );
+}
+.follower-icon-eraser {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe908;"
+  );
+}
+.follower-icon-clipboard {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe909;"
+  );
+}
+.follower-icon-orderlist {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe90a;"
+  );
+}
+.follower-icon-paragraph {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe90b;"
+  );
+}
+.follower-icon-h {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe90c;"
+  );
+}
+.follower-icon-image {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe90d;"
+  );
+}
+.follower-icon-html {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe90e;"
+  );
+}
+.follower-icon-css {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe90f;"
+  );
+}
+.follower-icon-columns-s {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe910;"
+  );
+}
+.follower-icon-columns {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe911;"
+  );
+}
+.follower-icon-table-menu {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe912;"
+  );
+}
+.follower-icon-table {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe913;"
+  );
+}
+.follower-icon-save {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe914;"
+  );
+}
+.follower-icon-type {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe915;"
+  );
+}
+.follower-icon-underline {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe916;"
+  );
+}
+.follower-icon-trash {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe917;"
+  );
+}
+.follower-icon-rotate-ccw {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe918;"
+  );
+}
+.follower-icon-rotate-cw {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe919;"
+  );
+}
+.follower-icon-plus {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe91a;"
+  );
+}
+.follower-icon-more-vertical {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe91b;"
+  );
+}
+.follower-icon-more-horizontal {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe91c;"
+  );
+}
+.follower-icon-minus {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe91d;"
+  );
+}
+.follower-icon-menu {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe91e;"
+  );
+}
+.follower-icon-list {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe91f;"
+  );
+}
+.follower-icon-layers {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe920;"
+  );
+}
+.follower-icon-layout {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe921;"
+  );
+}
+.follower-icon-italic {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe922;"
+  );
+}
+.follower-icon-file-text {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe923;"
+  );
+}
+.follower-icon-edit {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe924;"
+  );
+}
+.follower-icon-delete {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe925;"
+  );
+}
+.follower-icon-crop {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe926;"
+  );
+}
+.follower-icon-x {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe927;"
+  );
+}
+.follower-icon-bold {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe928;"
+  );
+}
+.follower-icon-code {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe929;"
+  );
+}
+.follower-icon-chevrons-right {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe92a;"
+  );
+}
+.follower-icon-check {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe92b;"
+  );
+}
+.follower-icon-chevrons-left {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe92c;"
+  );
+}
+.follower-icon-chevrons-up {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe92d;"
+  );
+}
+.follower-icon-chevron-up {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe92e;"
+  );
+}
+.follower-icon-chevron-right {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe92f;"
+  );
+}
+.follower-icon-chevrons-down {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe930;"
+  );
+}
+.follower-icon-chevron-down {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe931;"
+  );
+}
+.follower-icon-chevron-left {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe932;"
+  );
+}
+.follower-icon-copy {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe933;"
+  );
+}
+.follower-icon-align-right {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe934;"
+  );
+}
+.follower-icon-align-center {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe935;"
+  );
+}
+.follower-icon-align-justify {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe936;"
+  );
+}
+.follower-icon-align-left {
+  *zoom: expression(
+    this.runtimeStyle[ "zoom" ] = "1",
+    this.innerHTML = "&#xe937;"
+  );
+}
